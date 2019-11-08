@@ -41,4 +41,4 @@ Afterwards, go to the registry directory and push the changes (which should have
 
 
 ## Resources
-Based on https://lhendricks.org/julia_notes.pdf and https://github.com/GunnarFarneback/Registrator.jl.
+Based on https://lhendricks.org/julia_notes.pdf and https://github.com/GunnarFarneback/Registrator.jl. More manual instructions: https://discourse.julialang.org/t/creating-a-registry/12094
