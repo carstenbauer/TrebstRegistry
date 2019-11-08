@@ -1,0 +1,5 @@
+name = "TrebstRegistry"
+repo = "http://github.com/crstnbr/TrebstRegistry"
+uuid = "df7bba20-026d-11ea-1ecb-03517e44f23d"
+
+[packages]
