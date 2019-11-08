@@ -3,3 +3,4 @@ repo = "http://github.com/crstnbr/TrebstRegistry"
 uuid = "df7bba20-026d-11ea-1ecb-03517e44f23d"
 
 [packages]
+02d326e5-d3c8-4335-9f2f-3aadd41f742a = { name = "TestPackage", path = "T\\TestPackage" }
