@@ -1,0 +1,4 @@
+authors = ["Carsten Bauer <crstnbr@gmail.com>"]
+name = "LatPhysPlottingPlots"
+repo = "https://github.com/crstnbr/LatPhysPlottingPlots.jl.git"
+uuid = "6d5420a0-b2b7-11e9-1bca-bb37ee9b6c2a"
