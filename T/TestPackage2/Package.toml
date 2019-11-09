@@ -1,0 +1,4 @@
+authors = ["Carsten Bauer <crstnbr@gmail.com>"]
+name = "TestPackage2"
+repo = "git@github.com:crstnbr/TestPackage2.git"
+uuid = "f4fd7191-a01e-4365-9a54-05629098fe0f"
