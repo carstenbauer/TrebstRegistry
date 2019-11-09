@@ -1,7 +1,7 @@
 # Creating the registry
 ```julia
 using Pkg
-Pkg.add(Pkg.PackageSpec(url="https://github.com/GunnarFarneback/Registrator.jl"))
+Pkg.add(Pkg.PackageSpec(url="https://github.com/crstnbr/Registrator.jl"))
 using Registrator
 regsdir = joinpath(homedir(), "julia-registries")
 !isfile(regsdir) && mkdir(regsdir)
