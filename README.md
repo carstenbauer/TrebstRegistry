@@ -28,7 +28,7 @@ using MyPackage
 Registrator.register(MyPackage, "<reg_path>")
 ```
 
-This will register the package in your local version of the registry. After `git push`ing the changes to your github fork you can create a PR here (in the actual registry).
+This will register the package in your local version of the registry. After `git push`ing the changes in `<reg_path>` to your github fork you can create a PR here (in the actual registry).
 
 That's it! After one of the maintainers has reviewed and merged the PR your new package (version) is registered.
 
