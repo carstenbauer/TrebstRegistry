@@ -3,6 +3,6 @@ repo = "http://github.com/crstnbr/TrebstRegistry"
 uuid = "df7bba20-026d-11ea-1ecb-03517e44f23d"
 
 [packages]
-02d326e5-d3c8-4335-9f2f-3aadd41f742a = { name = "TestPackage", path = "T\\TestPackage" }
-6d5420a0-b2b7-11e9-1bca-bb37ee9b6c2a = { name = "LatPhysPlottingPlots", path = "L\\LatPhysPlottingPlots" }
-f4fd7191-a01e-4365-9a54-05629098fe0f = { name = "TestPackage2", path = "T\\TestPackage2" }
+02d326e5-d3c8-4335-9f2f-3aadd41f742a = { name = "TestPackage", path = "T/TestPackage" }
+6d5420a0-b2b7-11e9-1bca-bb37ee9b6c2a = { name = "LatPhysPlottingPlots", path = "L/LatPhysPlottingPlots" }
+f4fd7191-a01e-4365-9a54-05629098fe0f = { name = "TestPackage2", path = "T/TestPackage2" }
