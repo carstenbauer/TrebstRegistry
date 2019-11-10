@@ -7,4 +7,4 @@ To test that things are set up correctly, try fake adding the `TestPackage`.
 ```
 ] preview add TestPackage
 ```
-You can drop the `preview` to actually add the package.
+You can drop `preview` to actually add the package.
