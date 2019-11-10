@@ -34,11 +34,11 @@ That's it! After one of the maintainers has reviewed and merged the PR your new 
 
 ## Example package
 
-An example package with [Code Integration (CI)](https://github.com/crstnbr/TestPackage2.jl/tree/master/.github/workflows/CI.yaml), [CompatHelper.jl](https://github.com/crstnbr/TestPackage2.jl/tree/master/.github/workflows/CompatHelper.yml), and [TagBot](https://github.com/crstnbr/TestPackage2.jl/tree/master/.github/workflows/TagBot.yml) set up to work with this custom registry can be found [here](http://github.com/crstnbr/TestPackage2.jl).
+An example package with [Continuous Integration (CI)](https://github.com/crstnbr/TestPackage2.jl/tree/master/.github/workflows/CI.yaml), [CompatHelper.jl](https://github.com/crstnbr/TestPackage2.jl/tree/master/.github/workflows/CompatHelper.yml), and [TagBot](https://github.com/crstnbr/TestPackage2.jl/tree/master/.github/workflows/TagBot.yml) set up to work with this custom registry can be found [here](http://github.com/crstnbr/TestPackage2.jl).
 
 #### What is CI?
 
-CI will run your tests, as specified in your package's `test/runtests.jl` file, whenever you make changes to your package. This way, you will be able to identify (unintentionally) breaking changes etc.
+[Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) will run your tests, as specified in your package's `test/runtests.jl` file, whenever you make changes to your package. This way, you will be able to identify (unintentionally) breaking changes etc.
 
 #### What is CompatHelper?
 
@@ -46,4 +46,4 @@ CI will run your tests, as specified in your package's `test/runtests.jl` file, 
 
 #### What is TagBot?
 
-TagBot is a little bot that will create GitHub releases/tags for every version release of your package in this registry (It synchronizes GitHub releases and TrebstRegistry releases).
+[TagBot](https://github.com/JuliaRegistries/TagBot) is a little bot that will create GitHub releases/tags for every version release of your package in this registry (It synchronizes GitHub releases and TrebstRegistry releases).
