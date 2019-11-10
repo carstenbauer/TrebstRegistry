@@ -34,4 +34,4 @@ That's it! After one of the maintainers has reviewed and merged the PR your new 
 
 ## Example package
 
-An example package with [Code Integration (CI)](https://github.com/crstnbr/TestPackage2.jl/tree/master/.github/workflows)), [CompatHelper.jl](https://github.com/crstnbr/TestPackage2.jl/tree/master/.github/workflows/CI.yaml), and [TagBot](https://github.com/crstnbr/TestPackage2.jl/tree/master/.github/workflows/TagBot.yml) set up to work with this custom registry can be found [here](http://github.com/crstnbr/TestPackage2.jl).
+An example package with [Code Integration (CI)](https://github.com/crstnbr/TestPackage2.jl/tree/master/.github/workflows/CompatHelper.yml), [CompatHelper.jl](https://github.com/crstnbr/TestPackage2.jl/tree/master/.github/workflows/CI.yaml), and [TagBot](https://github.com/crstnbr/TestPackage2.jl/tree/master/.github/workflows/TagBot.yml) set up to work with this custom registry can be found [here](http://github.com/crstnbr/TestPackage2.jl).
