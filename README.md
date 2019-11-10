@@ -1,6 +1,6 @@
 # TrebstRegistry
 
-A registry for the [computational condensed matter theory group](http://www.thp.uni-koeln.de/trebst/index.shtml) of Prof. Simon Trebst at the University of Cologne.
+A registry for the [computational condensed matter physics group](http://www.thp.uni-koeln.de/trebst/index.shtml) of Prof. Simon Trebst at the University of Cologne.
 
 ## Using the registry
 To install this registry (next to the [General](https://github.com/JuliaRegistries/General) registry) execute
