@@ -22,7 +22,7 @@ Currently, there are two ways to register a new package or to release a new vers
 
 If none of those work for you, contact [me](http://github.com/crstnbr).
 
-### Registering a package using `crstnbr/Registrator.jl`
+### Registering a package (version) using `crstnbr/Registrator.jl`
 
 First, `] add https://github.com/crstnbr/Registrator.jl`, fork the `TrebstRegistry` repository, and `git clone` it to some local directory `<reg_path>`. The workflow is then simple:
 
