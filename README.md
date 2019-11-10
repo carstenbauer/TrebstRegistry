@@ -3,7 +3,8 @@ To install this registry (next to the [General](https://github.com/JuliaRegistri
 ] registry add http://github.com/crstnbr/TrebstRegistry
 ```
 
-To test that things are set up correctly, try adding the `TestPackage`.
+To test that things are set up correctly, try fake adding the `TestPackage`.
 ```
-] add TestPackage
+] preview add TestPackage
 ```
+You can drop the `preview` to actually add the package.
