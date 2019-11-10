@@ -36,14 +36,14 @@ That's it! After one of the maintainers has reviewed and merged the PR your new 
 
 An example package with [Code Integration (CI)](https://github.com/crstnbr/TestPackage2.jl/tree/master/.github/workflows/CI.yaml), [CompatHelper.jl](https://github.com/crstnbr/TestPackage2.jl/tree/master/.github/workflows/CompatHelper.yml), and [TagBot](https://github.com/crstnbr/TestPackage2.jl/tree/master/.github/workflows/TagBot.yml) set up to work with this custom registry can be found [here](http://github.com/crstnbr/TestPackage2.jl).
 
-### What is CI?
+#### What is CI?
 
 CI will run your tests, as specified in your package's `test/runtests.jl` file, whenever you make changes to your package. This way, you will be able to identify (unintentionally) breaking changes etc.
 
-### What is CompatHelper?
+#### What is CompatHelper?
 
 [CompatHelpers.jl](https://github.com/bcbi/CompatHelper.jl) is a bot that will help you keeping your package's `[compat]` entries in the `Project.toml` up to date. It will inform you about version updates of one of your dependencies and automatically create pull request to update the respective `[compat]` entries (upper bounds).
 
-### What is TagBot?
+#### What is TagBot?
 
 TagBot is a little bot that will create GitHub releases/tags for every version release of your package in this registry (It synchronizes GitHub releases and TrebstRegistry releases).
