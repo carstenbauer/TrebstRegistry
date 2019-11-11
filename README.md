@@ -42,7 +42,7 @@ An example package with [Continuous Integration (CI)](https://github.com/crstnbr
 
 #### What is CI?
 
-[Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) will run your tests, as specified in your package's `test/runtests.jl` file, whenever you make changes to your package. This way, you will be able to identify (unintentionally) breaking changes etc.
+[Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration) will run your tests, as specified in your package's `test/runtests.jl` file, whenever you make changes to your package. This way, you will be able to identify (unintentional) breaking changes etc.
 
 #### What is CompatHelper?
 
