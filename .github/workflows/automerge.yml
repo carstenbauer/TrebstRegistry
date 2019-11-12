@@ -1,0 +1,27 @@
+name: AutoMerge
+
+on:
+  schedule:
+    - cron: '15,45 * * * *'
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        julia-version: [1.2.0]
+        julia-arch: [x86]
+        os: [ubuntu-latest]
+    steps:
+      - uses: actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819 # v1.0.0
+      - uses: julia-actions/setup-julia@a072d0b2e463063d60f08e151727e0e548db233d # v0.2.1
+        with:
+          version: ${{ matrix.julia-version }}
+      - name: Install dependencies
+        run: julia --project=.ci/ -e 'using Pkg; Pkg.instantiate()'
+      - name: AutoMerge.run
+        env:
+          AUTOMERGE_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          JULIA_DEBUG: RegistryCI,AutoMerge
+        run: julia --project=.ci/ -e 'using RegistryCI; using Dates; RegistryCI.AutoMerge.run(merge_new_packages=true, merge_new_versions=true, new_package_waiting_period=Day(3), new_version_waiting_period=Minute(15), registry="crstnbr/TrebstRegistry", authorized_authors=["crstnbr"], suggest_onepointzero=false)'
